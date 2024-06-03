@@ -2,9 +2,14 @@
 [int]$SecondsBetweenRetries = 4
 [int]$MaxRetries = 6
 
-$MacAddress = "00:D0:4B:96:2D:97"
-$RemotePath = "\\WhiteBox\Family"
-$RemoteHostName = "WhiteBox"
+# $MacAddress = "00:D0:4B:96:2D:97"
+# $RemotePath = "\\WhiteBox\Family"
+# $RemoteHostName = "WhiteBox"
+
+$MacAddress = "AC:15:A2:58:91:E9"
+$RemotePath = "\\DESKTOP-J33C9LL\Family"
+$RemoteHostName = "DESKTOP-J33C9LL"
+
 
 $a = 0
 Do {
