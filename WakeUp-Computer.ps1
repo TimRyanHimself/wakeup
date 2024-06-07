@@ -1,15 +1,16 @@
+[CmdletBinding()]
+param (
+    [String]$MacAddress = "00:80:64:F3:F0:2E",
+    [String]$RemotePath = "\\WYSE1\Family",
+    [String]$RemoteHostName = "WYSE1",
+    [int]$SecondsBetweenRetries = 6,
+    [int]$MaxRetries = 6
+)
 
-[int]$SecondsBetweenRetries = 6
-[int]$MaxRetries = 6
 
 # $MacAddress = "00:D0:4B:96:2D:97"
 # $RemotePath = "\\WhiteBox\Family"
 # $RemoteHostName = "WhiteBox"
-
-$MacAddress = "00:80:64:F3:F0:2E"
-$RemotePath = "\\WYSE1\Family"
-$RemoteHostName = "WYSE1"
-
 
 $a = 0
 Do {
